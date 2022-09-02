@@ -1,0 +1,51 @@
+.container-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.651);
+}
+
+/*cria o checkbox customizado */
+/* .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 2px;
+} */
+
+/*adiciona uma cor de fundo cinza ao passar o mouse */
+/* .container:hover input ~ .checkmark {
+  background-color: #ccc;
+} */
+
+/*quando o checkbox é clicado, adiciona um fundo rosa */
+/* .container input:checked ~ .checkmark {
+  background-color: #ff0a54;
+} */
+
+/* criar o icone de check, escondido quando não estiver selecionado */
+/* .container .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} */
+
+/* exibe o icone quando selecionado */
+/* .container input:checked ~ .checkmark:after {
+  display: block;
+} */
