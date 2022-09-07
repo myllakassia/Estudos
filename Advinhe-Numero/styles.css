@@ -1,0 +1,71 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  min-height: 600px;
+  /* background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png"); */
+  background-color: #acaaca9a;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  width: auto;
+}
+img {
+  height: 13%;
+  width: 9%;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #50145a;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #50145a;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+
+.tentativas {
+  color: rgb(29, 247, 0);
+}
+
+.page-logo {
+  width: 200px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 9px;
+  background-color: #53527c41;
+  color: antiquewhite;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: yellow;
+  text-transform: uppercase;
+  background: #3061fd;
+  border-color: #302be3;
+}
+
+.resultado {
+  color: red;
+  text-align: center;
+  margin-top: 16px;
+}
