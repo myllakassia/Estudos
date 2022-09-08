@@ -1,0 +1,81 @@
+body {
+  font-family: "League Spartan", sans-serif;
+
+  text-align: center;
+  background-image: url("https://wallpaperaccess.com/full/2381677.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.addMoovie {
+  padding-top: 10px;
+  gap: 5px;
+  display: flex;
+
+  flex-direction: column;
+  height: 10%;
+  width: 40%;
+  align-items: center;
+  color: antiquewhite;
+}
+input {
+  padding: 5px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+button {
+  background-color: red;
+  color: #ffffff;
+  width: 30%;
+  border-color: red;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 16px;
+}
