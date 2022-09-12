@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela Classificação</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? family= Lato:wght@400;700 & family= League+Spartan:wght@400;500;700 & família= Montserrat:wght@500;700 &family= Roboto:ital,wght@0,400;1,500 & display=swap"
+      rel="folha de estilo"
+    />
+  </head>
+  <body>
+    <h1>Tabela de classificação</h1>
+
+    <table style="width: 100%">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Vitórias</th>
+          <th>Empates</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan="3">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores"></tbody>
+    </table>
+    <nav>
+      <p></p>
+      <input
+        class="txt"
+        type="text"
+        id="novoJogador"
+        name="novoJogador"
+        placeholder="Inserir novo jogador"
+      />
+      <button class="botao" onClick="adicionarJogador()">
+        Adicionar jogador
+      </button>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>

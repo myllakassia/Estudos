@@ -1,0 +1,57 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  min-height: 400px;
+  background-image: url("https://1.bp.blogspot.com/-CbWLumSsnHA/X3NCN8Y97SI/AAAAAAAAbdM/6_nItNbt0jcQvkFzogyKeqUGJjMyM57rACLcBGAsYHQ/d/v3-290920-rocket-minimalist-desktop-wallpaper-hd.png");
+  margin-top: 30px;
+  background-color: rgb(114, 106, 106);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  padding: 7px;
+}
+
+input {
+  color: red;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.botao {
+  height: 45px;
+  font-size: 20px;
+}
+
+button {
+  background-color: rgb(194, 19, 77);
+  color: white;
+  border-radius: 5px;
+  border-color: rgb(194, 19, 77);
+}
+
+.green {
+  background-color: green;
+}
